@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="friend_icon_width">45dp</dimen>
+    <dimen name="friend_icon_height">45dp</dimen>
+    <dimen name="listitem_friend_layout_height">36dp</dimen>
+    <dimen name="listitem_friend_textsize">10pt</dimen>
+    <dimen name="listitem_horizontal_margin">8dp</dimen>
+    <dimen name="listitem_vertical_margin">4dp</dimen>
+    <dimen name="listitem_message_horizontal_margin">70dp</dimen>
+    <dimen name="listitem_message_top_margin">8dp</dimen>
+    <dimen name="listitem_message_padding">9dp</dimen>
+    <dimen name="listitem_message_textsize">8pt</dimen>
+    <dimen name="listitem_message_icon_width">35dp</dimen>
+    <dimen name="listitem_message_icon_height">35dp</dimen>
+    <dimen name="listitem_session_icon_width">60dp</dimen>
+    <dimen name="listitem_session_icon_height">60dp</dimen>
+    <dimen name="listitem_session_name_textsize">8pt</dimen>
+    <dimen name="listitem_session_content_textsize">5pt</dimen>
+</resources>

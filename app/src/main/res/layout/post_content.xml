@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id = "@+id/post_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/post_head"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="need  help！！！"
+        android:layout_toRightOf="@id/post_icon"
+        android:layout_alignTop="@id/post_icon"
+        />
+    <TextView
+        android:id="@+id/post_content"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="9dp"
+        android:layout_toRightOf="@id/post_icon"
+        android:layout_below="@id/post_head"
+        android:text="司机们，我的腰好疼，怎么回事？是开车太多的原因吗？"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id = "@+id/post_img_one"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/post_icon"
+        android:layout_below="@id/post_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="9dp"
+        />
+    <ImageView
+        android:id = "@+id/post_img_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/post_img_one"
+        android:layout_below="@id/post_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="9dp"
+        />
+    <ImageView
+        android:id = "@+id/post_img_three"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/post_img_two"
+        android:layout_below="@id/post_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="9dp"
+        />
+
+</RelativeLayout>

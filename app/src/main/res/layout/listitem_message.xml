@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/message_layout_type_one"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/listitem_message_top_margin"
+        android:layout_marginLeft="@dimen/listitem_message_horizontal_margin">
+        <ImageView
+            android:id="@+id/message_user_icon_one"
+            android:layout_height="@dimen/listitem_message_icon_height"
+            android:layout_width="@dimen/listitem_message_icon_width"
+            android:background="@color/color_accent_gradient_dark"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            />
+    <TextView
+        android:id = "@+id/message_text_type_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listitem_message_padding"
+        android:text="忙什么呢？....在重中之重做做做做做做做做做做做做做做 "
+        android:textSize="@dimen/listitem_message_textsize"
+        android:background="@color/color_accept"
+        android:layout_toLeftOf="@id/message_user_icon_one"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/message_layout_type_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/listitem_message_top_margin"
+        android:layout_marginRight="@dimen/listitem_message_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/message_user_icon_two"
+            android:layout_height="@dimen/listitem_message_icon_height"
+            android:layout_width="@dimen/listitem_message_icon_width"
+            android:background="@color/color_reject"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/message_text_type_two"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/listitem_message_padding"
+            android:textSize="@dimen/listitem_message_textsize"
+            android:background="@color/white"
+            android:layout_toRightOf="@+id/message_user_icon_two"
+            android:text="忙什么呢？....在重中之重做做做做做做做做做做做做做做 "
+            />
+    </RelativeLayout>
+</FrameLayout>
